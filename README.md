@@ -1,4 +1,4 @@
-Simple TUI Typing Test Made Using FTXUI
+## Simple TUI Typing Test Made Using FTXUI
 - Inspired from geeking out with another colleague 
 
 

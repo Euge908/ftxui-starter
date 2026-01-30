@@ -1,0 +1,2 @@
+/home/eugene.reyes/emsdk/upstream/emscripten/emar qc libftxui-screen.a CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o
+/home/eugene.reyes/emsdk/upstream/emscripten/emranlib libftxui-screen.a

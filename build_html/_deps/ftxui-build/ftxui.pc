@@ -1,0 +1,9 @@
+prefix="/home/eugene.reyes/emsdk/upstream/emscripten/cache/sysroot"
+libdir="/home/eugene.reyes/emsdk/upstream/emscripten/cache/sysroot/lib"
+includedir="/home/eugene.reyes/emsdk/upstream/emscripten/cache/sysroot/include"
+
+Name: ftxui
+Description: 
+Version: 5.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lftxui-component -lftxui-dom -lftxui-screen

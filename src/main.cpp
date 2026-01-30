@@ -91,10 +91,7 @@ int main() {
         string_buffer_dequeue.end());  // copy : ugly but paragrah
     double accuracy = 1 - (double)mistake_count / character_count;
     double wpm = accuracy * (character_count / 5.0) * (60.0 / total_time);
-    if (halt_program) {
-        return paragraph("PROGRAM END") | bold;
-    } else
-{    return vbox({
+    return vbox({
                hbox({
                    vbox({
                        text("INPUT STRING: \n") | size(HEIGHT, EQUAL, 1) | bold,
@@ -122,7 +119,7 @@ int main() {
                     input_text_component->Render()),
            }) |
            border;
-  }});
+  });
 
   auto screen = ScreenInteractive::Fullscreen();
   auto loop_thread = std::jthread([&] { screen.Loop(renderer); });

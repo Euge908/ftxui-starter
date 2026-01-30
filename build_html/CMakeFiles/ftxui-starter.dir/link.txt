@@ -1,1 +1,0 @@
-/home/eugene.reyes/emsdk/upstream/emscripten/em++  -s USE_PTHREADS -s USE_PTHREADS  -s ASYNCIFY -s PROXY_TO_PTHREAD -s ASYNCIFY -s PROXY_TO_PTHREAD @CMakeFiles/ftxui-starter.dir/objects1.rsp -o ftxui-starter.js @CMakeFiles/ftxui-starter.dir/linkLibs.rsp

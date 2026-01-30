@@ -1,4 +1,7 @@
-ftxui-starter
+Simple TUI Typing Test Made Using FTXUI
+- Inspired from geeking out with another colleague 
+
+
 -------------
 
 [![Snap Status](https://build.snapcraft.io/badge/ArthurSonzogni/ftxui-starter.svg)](https://build.snapcraft.io/user/ArthurSonzogni/ftxui-starter)

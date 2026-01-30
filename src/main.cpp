@@ -18,8 +18,10 @@
 
 int main() {
   // https://raw.githubusercontent.com/powerlanguage/word-lists/refs/heads/master/1000-most-common-words.txt
+  std::random_device rd;  // Non-deterministic seed source
+  std::default_random_engine generator(rd()); // Seed with rd
 
-  std::default_random_engine generator;
+  
   std::uniform_int_distribution<uint64_t> distribution(
       0, random_string_list.size() - 1);
   auto dice = std::bind(distribution, generator);
